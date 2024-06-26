@@ -31,6 +31,8 @@ public class MyZoo {
 		dog.eat();
 		System.out.println("il cane fa :");
 		dog.sound();
+		System.out.println("Dorme :");
+		sparrow.sleep();
 		
 		MyZoo.separator();
 		
@@ -38,6 +40,8 @@ public class MyZoo {
 		dolphin.eat();
 		System.out.println("il delfino fa :");
 		dolphin.sound();
+		System.out.println("Dorme :");
+		sparrow.sleep();
 		
 		MyZoo.separator();
 		
@@ -45,6 +49,7 @@ public class MyZoo {
 		sparrow.eat();
 		System.out.println("il passerotto fa :");
 		sparrow.sound();
+		System.out.println("Dorme :");
 		sparrow.sleep();
 		
 		MyZoo.separator();
@@ -53,6 +58,8 @@ public class MyZoo {
 		eagle.eat();
 		System.out.println("il delfino fa :");
 		eagle.sound();
+		System.out.println("Dorme :");
+		sparrow.sleep();
 		
 		MyZoo.separator();MyZoo.separator();MyZoo.separator();
 		
