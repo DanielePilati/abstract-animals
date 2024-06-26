@@ -1,6 +1,6 @@
 package org.animals.abstracts;
 
-public class Dolphin extends Mammal {
+public class Dolphin extends Animals {
 
 	public Dolphin() {
 		

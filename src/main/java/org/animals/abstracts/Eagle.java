@@ -1,6 +1,6 @@
 package org.animals.abstracts;
 
-public class Eagle extends Birds {
+public class Eagle extends Animals implements Winged {
 
 	public Eagle() {
 		

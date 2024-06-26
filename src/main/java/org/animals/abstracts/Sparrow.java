@@ -1,6 +1,6 @@
 package org.animals.abstracts;
 
-public class Sparrow extends Birds {
+public class Sparrow extends Animals implements Winged {
 
 	public Sparrow() {
 		

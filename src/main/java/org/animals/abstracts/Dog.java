@@ -1,6 +1,6 @@
 package org.animals.abstracts;
 
-public class Dog extends Mammal {
+public class Dog extends Animals {
 
 	public Dog() {
 		
