@@ -1,6 +1,6 @@
 package org.animals.abstracts;
 
-public class MyZoo {
+public class Main {
 
 	
 	public static void separator() {
@@ -25,7 +25,7 @@ public class MyZoo {
 		Sparrow sparrow = new Sparrow();
 		Eagle eagle = new Eagle();
 		
-		MyZoo.separator();
+		Main.separator();
 		
 		System.out.println("Il cane mangia :");
 		dog.eat();
@@ -34,7 +34,7 @@ public class MyZoo {
 		System.out.println("Dorme :");
 		sparrow.sleep();
 		
-		MyZoo.separator();
+		Main.separator();
 		
 		System.out.println("Il delfino mangia :");
 		dolphin.eat();
@@ -43,7 +43,7 @@ public class MyZoo {
 		System.out.println("Dorme :");
 		sparrow.sleep();
 		
-		MyZoo.separator();
+		Main.separator();
 		
 		System.out.println("Il passerotto mangia :");
 		sparrow.eat();
@@ -52,7 +52,7 @@ public class MyZoo {
 		System.out.println("Dorme :");
 		sparrow.sleep();
 		
-		MyZoo.separator();
+		Main.separator();
 		
 		System.out.println("L'Aquila mangia :");
 		eagle.eat();
@@ -61,12 +61,12 @@ public class MyZoo {
 		System.out.println("Dorme :");
 		sparrow.sleep();
 		
-		MyZoo.separator();
+		Main.separator();
 		
 		System.out.println("Il cane nuota :");
 		faiNuotare(dog);
 		
-		MyZoo.separator();
+		Main.separator();
 		
 		System.out.println("Il il passero vola :");
 		faiVolare(sparrow);
