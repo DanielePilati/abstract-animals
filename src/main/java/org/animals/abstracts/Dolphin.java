@@ -18,5 +18,9 @@ public class Dolphin extends Mammal {
 		
 	}
 
-
+	@Override
+	public void swim() {
+			System.out.println("Sto Nuotando");
+		
+	}
 }

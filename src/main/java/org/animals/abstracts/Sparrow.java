@@ -18,4 +18,15 @@ public class Sparrow extends Birds {
 		
 	}
 
+	@Override
+	public void fly() {
+		System.out.println("Sto Volando");
+		
+	}
+
+	@Override
+	public void swim() {
+			System.out.println("Sto Nuotando");
+		
+	}
 }

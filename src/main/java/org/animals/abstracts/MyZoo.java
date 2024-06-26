@@ -9,6 +9,13 @@ public class MyZoo {
 		System.out.println();
 	}
 	
+	public static void faiVolare(Winged winged) {
+		winged.fly();
+	}
+	public static void faiNuotare(Swimmer swimmer) {
+		swimmer.swim();
+	}
+	
 	public static void main(String[] args) {
 		
 		System.out.printf("Hello Zoo");
@@ -47,7 +54,15 @@ public class MyZoo {
 		System.out.println("il delfino fa :");
 		eagle.sound();
 		
+		MyZoo.separator();MyZoo.separator();MyZoo.separator();
+		
+		System.out.println("Il cane nuota :");
+		faiNuotare(dog);
+		
 		MyZoo.separator();
+		
+		System.out.println("Il il passero vola :");
+		faiVolare(sparrow);
 
 	}
 

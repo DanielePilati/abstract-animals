@@ -1,6 +1,6 @@
 package org.animals.abstracts;
 
-public abstract class Animals {
+public abstract class Animals implements Swimmer{
 	
 	public void sleep() {
 		System.out.println("ZzZzZzZzZz");

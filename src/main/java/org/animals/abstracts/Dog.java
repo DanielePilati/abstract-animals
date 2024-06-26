@@ -16,4 +16,9 @@ public class Dog extends Mammal {
 		System.out.println("Croccantini");
 	}
 
+	@Override
+	public void swim() {
+			System.out.println("Sto Nuotando");
+		
+	}
 }

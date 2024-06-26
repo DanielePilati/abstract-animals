@@ -17,5 +17,16 @@ public class Eagle extends Birds {
 		System.out.println("Animali di piccola taglia");
 		
 	}
-
+	
+	@Override
+	public void fly() {
+		System.out.println("Sto Volando");
+		
+	}
+	
+	@Override
+	public void swim() {
+			System.out.println("Sto Nuotando");
+		
+	}
 }
