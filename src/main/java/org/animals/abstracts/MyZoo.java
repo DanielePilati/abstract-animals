@@ -61,7 +61,7 @@ public class MyZoo {
 		System.out.println("Dorme :");
 		sparrow.sleep();
 		
-		MyZoo.separator();MyZoo.separator();MyZoo.separator();
+		MyZoo.separator();
 		
 		System.out.println("Il cane nuota :");
 		faiNuotare(dog);
